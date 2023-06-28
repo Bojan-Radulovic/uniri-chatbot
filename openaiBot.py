@@ -8,7 +8,7 @@ from langchain.vectorstores.faiss import FAISS
 import pickle
 import os
 
-openai_api_key = "insert your OpenAi API key here"
+openai_api_key = "insert your OpenAI API key here"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 
 
