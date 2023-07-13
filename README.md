@@ -7,7 +7,7 @@ A chatbot that answers questions about the University of Rijeka (mainly about FF
 ## General info
 This project was created by me during my professional practice at Ericsson Nikola Tesla. It involved developing a Flask web app with a chat-like user interface that answers questions about the University of Rijeka and its's faculties. In the app, users can ask questions about the University of Rijeka, primarily focusing on FFRI and FIDIT, and receive AI-generated answers. The app also includes speech-to-text capabilities, allowing users to ask questions using their voice instead of typing. Additionally, it features text-to-speech capabilities to read the answers aloud to users. Users can also choose whether they want the chatbot to provide sources for the answers. The app currently supports only Croatian and incorporates information from the university and faculties' websites, freshman guides, pamphlets, etc. However, the data can be easily modified to create a chatbot for virtually any purpose.
 ## Technologies
-* Python 3.9
+* Python 3.9.5
 * Flask
 * LangChain
 * OpenAI API
