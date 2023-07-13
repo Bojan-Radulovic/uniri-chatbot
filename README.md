@@ -13,4 +13,4 @@ This project was created by me during my professional practice at Ericsson Nikol
 * OpenAI API
 * ...
 ## Use
-In the openaiBot.py file, replace "insert your OpenAI API key here" with your OpenAI API key. Extract the vectorstore.rar file in your root folder and, from a terminal in the root folder, start the server with python app.py.
+In the openaiBot.py file, replace "insert your OpenAI API key here" with your OpenAI API key. Extract the vectorstore.rar file in your root folder and, from a terminal in the root folder, run "pip install -r requirements.txt" to install all the requirements and then start the server with "python app.py".
