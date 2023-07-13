@@ -1,0 +1,9 @@
+pip install flask
+pip install langchain
+pip install openai
+pip install gtts
+pip install unstructured
+pip install python-magic-bin
+pip install pytesseract
+pip install tiktoken
+pip install faiss-cpu

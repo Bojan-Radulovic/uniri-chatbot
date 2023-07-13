@@ -11,6 +11,14 @@ import os
 openai_api_key = "insert your OpenAI API key here"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 
+# namjestanje environmenta za tesseract i poppler
+path = os.environ.get('PATH', '')
+poppler_path = os.path.join(os.getcwd(), "poppler-23.07.0", "Library", "bin")
+tesseract_path = os.path.join(os.getcwd(), "Tesseract-OCR")
+tessdata_prefix = os.path.join(tesseract_path, "tessdata")
+new_path = f'{path};{poppler_path};{tesseract_path}'
+os.environ['PATH'] = new_path
+os.environ['TESSDATA_PREFIX'] = tesseract_path
 
 # korisno za izradu valstitih loadera,
 # u ovom projektu ipak nije koristeno
